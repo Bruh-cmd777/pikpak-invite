@@ -10,7 +10,6 @@ import re
 import os
 def md5(input_string):
     return hashlib.md5(input_string.encode()).hexdigest()
-
 def get_sign(xid, t):
     e = [
         {"alg": "md5", "salt": "KHBJ07an7ROXDoK7Db"},
